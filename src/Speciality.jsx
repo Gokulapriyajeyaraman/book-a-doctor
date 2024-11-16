@@ -7,7 +7,7 @@ function Speciality() {
             <p className='text-1xl text-teal-900 p-5'>Find experienced doctors across all specialties</p>
             <div className='w-full flex justify-evenly flex-wrap'>
                <div>
-               <div className='h-40 w-40 m-3 border border-solid border-teal-500 text-center text-sm shadow-lg shadow-teal-500 rounded-full overflow-hidden'>
+               <div className='h-40 w-40 m-3 border border-solid border-teal-700 text-center text-sm shadow-lg shadow-teal-600 rounded-full overflow-hidden'>
                     <img className="h-full w-full object-cover" src="/images/urology.png" alt="Urology" />
                 </div>
                 <div>
@@ -17,7 +17,7 @@ function Speciality() {
                
 
                <div>
-               <div className='h-40 w-40 m-3 border border-solid border-teal-500 text-center text-sm shadow-lg shadow-teal-500 rounded-full overflow-hidden'>
+               <div className='h-40 w-40 m-3 border border-solid border-teal-700 text-center text-sm shadow-lg shadow-teal-600 rounded-full overflow-hidden'>
                     <img className="h-full w-full object-cover" src="/images/neurology.png" alt="Neurology" />
                 </div>
                 <div>
@@ -25,7 +25,7 @@ function Speciality() {
                 </div>
                </div>
                 <div>
-                   <div className='h-40 w-40 m-3 border border-solid border-teal-500 text-center text-sm shadow-lg shadow-teal-500 rounded-full overflow-hidden'>
+                   <div className='h-40 w-40 m-3 border border-solid border-teal-700 text-center text-sm shadow-lg shadow-teal-600 rounded-full overflow-hidden'>
                     <img className="h-full w-full object-cover" src="/images/orthopedic.jpg" alt="Orthopedic" />
                    </div>
                 <div>
@@ -33,7 +33,7 @@ function Speciality() {
                 </div>
                 </div>
                <div>
-               <div className='h-40 w-40 m-3 border border-solid border-teal-500 text-center text-sm shadow-lg shadow-teal-500 rounded-full overflow-hidden'>
+               <div className='h-40 w-40 m-3 border border-solid border-teal-700 text-center text-sm shadow-lg shadow-teal-600 rounded-full overflow-hidden'>
                     <img className="h-full w-full object-cover" src="/images/cardiology.png" alt="Cardiology" />
                 </div>
                 <div>
@@ -41,7 +41,7 @@ function Speciality() {
                 </div>
                </div>
                 <div>
-                <div className='h-40 w-40 m-3 border  border-solid border-teal-500 text-center text-sm shadow-lg shadow-teal-500 rounded-full overflow-hidden'>
+                <div className='h-40 w-40 m-3 border  border-solid border-teal-700 text-center text-sm shadow-lg shadow-teal-600 rounded-full overflow-hidden'>
                     <img className="h-full w-full object-cover" src="/images/consultant.png" alt="Consultant" />
                 </div>
                 <div>
@@ -51,7 +51,7 @@ function Speciality() {
                 
 
                 <div>
-                <div className='h-40 w-40 m-3 border border-solid border-teal-500 text-center text-sm shadow-lg shadow-teal-500 rounded-full overflow-hidden'>
+                <div className='h-40 w-40 m-3 border border-solid border-teal-700 text-center text-sm shadow-lg shadow-teal-600 rounded-full overflow-hidden'>
                     <img className="h-full w-full object-cover" src="/images/physician.png" alt="Consultant" />
                 </div>
                 <div>
