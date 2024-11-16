@@ -16,7 +16,7 @@ const Navbar = () => {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white-500 rounded-lg md:hidden hover:bg-teal-100 focus:outline-none focus:ring-2 focus:ring-teal-200 dark:text-white-400 dark:hover:bg-teal-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white-500 rounded-lg md:bg-white bg-teal-700 hover:bg-teal-100 focus:outline-none focus:ring-2 focus:ring-teal-200 dark:text-white-400 dark:hover:bg-teal-700 dark:focus:ring-gray-600"
           >
             <div className="space-y-1">
               <div className="w-6 h-0.5 bg-white"></div>
