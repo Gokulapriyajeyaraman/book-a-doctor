@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Doctors() {
+function Doctors({id, doctorName, place, yearsOfExperience, profession}) {
     return (
         <div>
 
 
-            <div className='flex flex-wrap justify-center'>
+            <div key={id}>
 
                 <div className=" max-w-sm m-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <div className='h-40 w-40'>
@@ -14,11 +14,11 @@ function Doctors() {
                     <hr />
                     <div className='flex flex-wrap flex-col justify-start p-5'>
                         <div className="p-5 flex justify-start flex-col">
-                            <p className="mb-3 text-2xl font-normal text-gray-700 dark:text-gray-400">Dr.ABCD</p>
-                            <p classNameName='text-sm'>Neurosurgeon</p>
+                            <p className="mb-3 text-2xl font-normal text-gray-700 dark:text-gray-400">{doctorName}</p>
+                            <p classNameName='text-sm'>{profession}</p>
                             <div className='m-2'>
-                                <p className='text-sm'>Chennai</p>
-                                <p className='text-sm'>Experience : 5 years</p>
+                                <p className='text-sm'>{place}</p>
+                                <p className='text-sm'>Experience : {yearsOfExperience}</p>
                             </div>
                         </div>
 

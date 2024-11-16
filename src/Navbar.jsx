@@ -1,5 +1,4 @@
-import React from "react";
-import { useState} from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +30,7 @@ const Navbar = () => {
             } w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4  border-white-100  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white z-30  md:dark:bg-teal-900">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border-white-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white z-30 md:dark:bg-teal-900">
               <li>
                 <a
                   href="#"
@@ -69,7 +68,10 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <section className="relative h-[500px] bg-gray-100 flex items-center justify-center mt-[70px]">
+
+
+      <section className="relative h-[500px] bg-gray-100 flex items-center justify-center pt-[80px]">
+
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -78,9 +80,11 @@ const Navbar = () => {
           }}
         ></div>
 
+
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-        <div className="relative text-center text-white z-10 mt-[-50px] mr-[-50px]">
+
+        <div className="relative z-10 text-center text-white">
           <h1 className="text-4xl font-bold mb-2">View Doctors</h1>
           <h2 className="text-4xl">Book an Appointment</h2>
         </div>
