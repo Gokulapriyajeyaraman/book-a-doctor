@@ -1,15 +1,14 @@
 import React from 'react'
-import Speciality from './Speciality'
-import Booking from './Booking'
 import './App.css'
+import Speciality from './Speciality'
 
 function App() {
   return (
     <div>
-        
-       <Booking/>
+        <Speciality />
     </div>
   )
 }
 
 export default App
+
