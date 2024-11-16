@@ -1,16 +1,18 @@
- import React, { useState } from 'react';
-import './App.css'
-function App() {
-  const [ham, setHam] = useState(false);
+import React, { useState } from 'react';
+
+function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  // Regular function to toggle the menu
   function toggleMenu() {
-    setHam(!ham);
+    setIsOpen(!isOpen);
   }
 
   return (
     <header className="bg-gray-800 p-4 shadow-lg">
       <div className="flex items-center justify-between">
         
-       <h1>hi</h1>
+        {/* Hamburger Icon for Mobile */}
         <div className="lg:hidden">
           <button onClick={toggleMenu} className="text-white text-3xl">
             {isOpen ? (
@@ -48,6 +50,6 @@ function App() {
   );
 }
 
+export default Header;
 
 
-export default App
