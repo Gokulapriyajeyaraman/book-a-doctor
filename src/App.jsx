@@ -1,5 +1,5 @@
 
- import React, { useState } from 'react';
+import React, { useState } from 'react';
 import './App.css'
 import React from 'react'
 import Speciality from './Speciality'
