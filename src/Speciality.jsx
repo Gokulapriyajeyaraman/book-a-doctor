@@ -4,7 +4,7 @@ function Speciality() {
 
     return (
         <div className='flex justify-center items-center flex-col m-5'>
-            <p className='text-teal-700 text-2xl font-bold md:text-4xl'>Clinic and Specialities</p>
+            <p className=' text-2xl font-bold md:text-4xl'>Clinic and Specialities</p>
             <p className='text-1xl text-teal-900 p-5'>Find experienced doctors across all specialties</p>
             <div className='w-full flex justify-evenly flex-wrap'>
                <div>
