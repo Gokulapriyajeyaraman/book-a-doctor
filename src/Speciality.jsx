@@ -4,6 +4,7 @@ function Speciality() {
   return (
     <div>
         <p>Clinic and Specialities</p>
+        
         <div>
             <div className='h-auto w-full'> 
                <img class="rounded-full w-96 h-96" src="./urology.png" />
