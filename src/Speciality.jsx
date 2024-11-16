@@ -42,10 +42,10 @@ function Speciality() {
                </div>
                 <div>
                 <div className='h-40 w-40 m-3 border  border-solid border-teal-700 text-center text-sm shadow-lg shadow-teal-600 rounded-full overflow-hidden'>
-                    <img className="h-full w-full object-cover" src="/images/consultant.png" alt="Consultant" />
+                    <img className="h-full w-full object-cover" src="/images/dentist.png" alt="Consultant" />
                 </div>
                 <div>
-                   <p className='text-black-700 text-center font-bold text-sm m-6 '>CONSULTANT PHYSICIAN</p>
+                   <p className='text-black-700 text-center font-bold text-sm m-6 '>DENTIST</p>
                 </div>
                 </div>
                 
