@@ -1,12 +1,12 @@
-
-import React, { useState } from 'react';
-import './App.css'
 import React from 'react'
+import './App.css'
 import Speciality from './Speciality'
+import Navbar from './Navbar'
 
 function App() {
   return (
     <div>
+        <Navbar />
         <Speciality />
     </div>
   )
