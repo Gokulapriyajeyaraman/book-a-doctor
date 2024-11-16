@@ -9,7 +9,7 @@ function Doctors({id, doctorName, place, yearsOfExperience, profession}) {
 
                 <div className=" max-w-sm m-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <div className='h-40 w-40'>
-                        <img className="w-full h-full object-cover" src="/images/dentist.png" alt="" />
+                        <img className="w-full h-full object-cover" src="/images/doctor.png" alt="" />
                     </div>
                     <hr />
                     <div className='flex flex-wrap flex-col justify-start p-5'>

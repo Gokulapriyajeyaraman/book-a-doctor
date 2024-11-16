@@ -3,7 +3,7 @@ import { data } from './Data'
 import Doctors from './Doctors'
 function Doctormap() {
   return (
-    <div  className='flex flex-wrap justify-center'>
+    <div  className='flex justify-center flex-wrap m-5'>
         {data.map((datas) => (
               <Doctors 
                  id={datas.id}
