@@ -32,7 +32,7 @@ function Doctors({ id, doctorName, place, yearsOfExperience, profession }) {
 
                         <button
                             onClick={openModal}
-                            className="inline-flex justify-around items-center px-3 py-2 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800 h-10 w-40"
+                            className="inline-flex justify-around items-center px-3 py-2 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800 h-10 w-40"
                         >
                             Book Doctor
                             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
