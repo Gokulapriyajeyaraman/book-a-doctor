@@ -5,24 +5,23 @@ const Navbar = () => {
 
   return (
     <>
-      
-      <nav
-  className="fixed w-full h-22 z-10 top-0 left-0   bg-teal-900"
- 
->
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pb-2 p-4">
-          <div className="flex justify-center items-center">
-          <img src="./public/images/lightlogo.png" class="h-16" alt="doctorly Logo" />
-            <h1 className="flex items-center text-3xl pl-4 pb-2 font-semibold text-white">
-               BOOK A DOCTOR
-            </h1>
+      <nav className="fixed w-full h-22 z-10 top-0 left-0   bg-teal-900">
+        
+        <div className=" flex flex-wrap items-center  justify-between pb-2 p-4">
+          <div className="flex items-center justify-start ml-0">
+            <img
+              src="/images/lightlogo.png"
+              className="h-16 mr-3"
+              alt="doctorly Logo"
+            />
+            <h1 className="text-3xl font-semibold text-white">BOOK A DOCTOR</h1>
           </div>
 
           <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="inline-flex items-center p-2 w-10 h-10 justify-center rounded-lg bg-teal-700 hover:bg-teal-600 text-white focus:outline-none focus:ring-2 focus:ring-teal-200"
+  onClick={() => setIsOpen(!isOpen)}
+  className="inline-flex items-center p-2 w-10 h-10 justify-center rounded-lg bg-teal-700 hover:bg-teal-600 text-white focus:outline-none focus:ring-2 focus:ring-teal-200 md:hidden"
+>
 
-          >
             <div className="space-y-1">
               <div className="w-6 h-0.5 bg-white"></div>
               <div className="w-6 h-0.5 bg-white"></div>
