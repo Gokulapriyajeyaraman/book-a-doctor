@@ -35,7 +35,7 @@ const Navbar = () => {
             } w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4  pb-2 border-white-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white z-30 md:bg-teal-900">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4  pb-2  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-teal z-30 md:bg-teal-900">
               <li>
                 <a
                   href="#"
