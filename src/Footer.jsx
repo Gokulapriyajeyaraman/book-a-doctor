@@ -6,7 +6,7 @@ function Footer() {
     <div className="flex pt-20">
       <footer className="bg-gray-900 p-10  text-white py-10 px-4 bg-black">
         <div className="container p-15 mx-auto flex flex-wrap justify-between flex-grow ">
-          {/* Left Section */}
+          
           <div className="flex-1 min-w-[250px] mr-8 mb-8">
             <div >
               <h2 className=" text-4xl font-blue text-blue-500 text-blue">
@@ -40,7 +40,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* Middle Section */}
+          
           <div className="flex-1  mr-8 mb-8 flexwrap">
             <h1 className=" space-y-8 text-xl mb-4 relative after:content-[''] after:block after:w-8 after:h-[2px] after:bg-blue-500 font-bold after:mt-2">For Information</h1>
             <ul className="space-y-6">
@@ -53,7 +53,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Helpful Links Section */}
+
           <div className="flex-1 min-w-[250px] mr-8 mb-8">
             <h1 className=" text-xl mb-4 relative after:content-[''] after:block after:w-8 after:h-[2px] after:bg-blue-500 font-bold after:mt-2">Helpful Links</h1>
             <ul className="space-y-6">
@@ -67,7 +67,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Right Section */}
+
           <div className="flex-1 min-w-[250px] mb-8">
             <h1 className=" space-y-8 text-xl mb-4 relative after:content-[''] after:block after:w-8 after:h-[2px] after:bg-blue-500 font-bold after:mt-2">Contact Us</h1>
             <p className="flex items-center space-x-2 mb-4"><FaMapMarkerAlt className="text-white-500 text-2xl mr-2" />QWKPRO CONSULTANCY PVT LTD, Silchar, Assam</p>
@@ -76,7 +76,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Footer Bottom Section */}
+     
         <div className="border-t border-gray-700 mt-6 pt-4 flex justify-between  text-xs">
           <p>© 2024 Quickobook. All rights reserved.</p>
           <p><a href="#" className=" text-white hover:text-green-500">Terms and Conditions</a></p>
