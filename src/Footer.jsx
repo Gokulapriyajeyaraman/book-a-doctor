@@ -4,7 +4,7 @@ import { FaGreaterThan, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutub
 function Footer() {
   return (
     <div className="flex pt-20">
-      <footer className="bg-gray-900 p-10  text-white py-10 px-4">
+      <footer className="bg-gray-900 p-10 w-full  text-white py-10 px-4">
         <div className="container p-15 mx-auto flex flex-wrap justify-between flex-grow ">
     
           <div className="flex-1 min-w-[250px] mr-8 mb-8">
