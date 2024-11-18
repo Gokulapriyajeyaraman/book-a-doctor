@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed w-full h-22 z-10 top-0 left-0   bg-teal-900">
+      <nav className="fixed w-full h-20 z-20 top-0 left-0   bg-teal-900">
         
         <div className=" flex flex-wrap items-center  justify-between pb-2 p-4">
           <div className="flex items-center justify-start ml-0">
@@ -14,7 +14,7 @@ const Navbar = () => {
               className="h-16 mr-3"
               alt="doctorly Logo"
             />
-            <h1 className="text-3xl font-semibold text-white">BOOK A DOCTOR</h1>
+            
           </div>
 
           <button
@@ -39,7 +39,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 px-3 text-white bg-teal-600 rounded md:bg-transparent md:text-teal-700 md:p-0 text-white md:text-teal-500"
+                  className="block py-2 px-3 text-white bg-teal-600 rounded md:bg-transparent md:text-teal-700 md:p-0 text-white md:text-teal-400"
                   aria-current="page"
                 >
                   Home
@@ -73,8 +73,12 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <section
+  className="relative h-[500px] bg-gray-100 flex items-center justify-center  pt-[88px] "
+  style={{ paddingTop: '88px' }} 
+>
 
-      <section className="relative h-[500px] bg-gray-100 flex items-center justify-center pt-[80px]">
+      
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
