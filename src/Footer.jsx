@@ -4,17 +4,17 @@ import { FaGreaterThan, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutub
 function Footer() {
   return (
     <div className="flex pt-20">
-      <footer className="bg-gray-900 p-10  text-white py-10 px-4 bg-black">
+      <footer className="bg-gray-900 p-10  text-white py-10 px-4">
         <div className="container p-15 mx-auto flex flex-wrap justify-between flex-grow ">
     
           <div className="flex-1 min-w-[250px] mr-8 mb-8">
             <div >
               <h2 className=" text-4xl font-teal text-[#0f766e] text-teal">
-                <b>BOOK A DOCTOR</b>
+                <b>DOCTORLY</b>
               </h2>
             </div>
-            <p className=" text-sm  pt-7 text-lg">
-              Book a Doctor is a registered start-up company empaneled with 10000+ Doctors, 500+ Hospitals, lives touched of more than 2 Million patients.
+            <p className=" text-sm  pt-7 ">
+              Doctorly is a registered start-up company empaneled with 10000+ Doctors, 500+ Hospitals, lives touched of more than 2 Million patients.
             </p>
             <div className="social-icons mt-4 flex">
               <FaFacebook className="hover:text-[#0f766e] text-white-600 text-2xl" />
@@ -70,15 +70,15 @@ function Footer() {
 
           <div className="flex-1 min-w-[250px] mb-8">
             <h1 className=" space-y-8 text-xl mb-4 relative after:content-[''] after:block after:w-8 after:h-[2px] after:bg-[#0f766e] font-bold after:mt-2">Contact Us</h1>
-            <p className="flex items-center space-x-2 mb-4"><FaMapMarkerAlt className="text-white-500 text-2xl mr-2" />QWKPRO CONSULTANCY PVT LTD, Silchar, Assam</p>
+            <p className="flex items-center space-x-2 mb-4"><FaMapMarkerAlt className="text-white-500 text-2xl mr-2" />ABCDE CONSULTANCY PVT LTD, Chennai, Tamilnadu</p>
             <p className="flex items-center space-x-2 mb-4"><FaPhoneAlt className="text-white-500 text-2xl mr-2" /> +91 943 520 0024</p>
-            <p className="flex items-center space-x-2 mb-4"><FaEnvelope className="text-white-500 text-2xl mr-3" />info@quickobook.com</p>
+            <p className="flex items-center space-x-2 mb-4"><FaEnvelope className="text-white-500 text-2xl mr-3" />info@doctorly.com</p>
           </div>
         </div>
 
      
         <div className="border-t border-gray-700 mt-6 pt-4 flex justify-between  text-xs">
-          <p>© 2024 Quickobook. All rights reserved.</p>
+          <p>© 2024 Doctorly. All rights reserved.</p>
           <p><a href="#" className=" text-white hover:text-teal-500">Terms and Conditions</a></p>
         </div>
       </footer>
